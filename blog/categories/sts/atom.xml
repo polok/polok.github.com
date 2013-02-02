@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Around the Java world]]></title>
-  <link href="http://polok.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: STS | Around the Java world]]></title>
+  <link href="http://polok.github.com/blog/categories/sts/atom.xml" rel="self"/>
   <link href="http://polok.github.com/"/>
   <updated>2013-02-02T18:30:50+01:00</updated>
   <id>http://polok.github.com/</id>
