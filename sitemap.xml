@@ -1,15 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://polok.github.com/blog/2013/02/02/sts-updating-maven-project-unsupported-iclasspathentry-kind-equals-4/
+        </loc>
+        <lastmod>2013-02-02T18:27:19+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://polok.github.com/about/</loc>
         <lastmod>2013-02-02T13:42:07+01:00</lastmod>
     </url>
     <url>
         <loc>http://polok.github.com/blog/archives/</loc>
-        <lastmod>2012-06-29T20:22:14+02:00</lastmod>
+        <lastmod>2013-02-02T18:27:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://polok.github.com/</loc>
-        <lastmod>2012-06-29T20:22:14+02:00</lastmod>
+        <lastmod>2013-02-02T18:27:19+01:00</lastmod>
     </url>
 </urlset>
