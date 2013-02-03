@@ -4,18 +4,22 @@
         <loc>
             http://polok.github.com/blog/2013/02/02/sts-updating-maven-project-unsupported-iclasspathentry-kind-equals-4/
         </loc>
-        <lastmod>2013-02-02T18:30:41+01:00</lastmod>
+        <lastmod>2013-02-03T21:23:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://polok.github.com/about/</loc>
-        <lastmod>2013-02-02T13:42:07+01:00</lastmod>
+        <lastmod>2013-02-03T21:23:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://polok.github.com/blog/archives/</loc>
-        <lastmod>2013-02-02T18:30:41+01:00</lastmod>
+        <lastmod>2013-02-03T21:23:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://polok.github.com/</loc>
-        <lastmod>2013-02-02T18:30:41+01:00</lastmod>
+        <lastmod>2013-02-03T21:23:57+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://polok.github.com/search.html</loc>
+        <lastmod>2013-02-03T21:23:57+01:00</lastmod>
     </url>
 </urlset>

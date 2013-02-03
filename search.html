@@ -6,7 +6,7 @@
 	<title>Around the Java world</title>
     <meta name="author" content="Marcin Polak">
     
-	<meta name="description" content="Published on: Feb 2nd, 2013 Tags: Maven, STS It is my first post and I treated it as warm-up. It is not very long but I wanted to finally start &hellip;">
+	<meta name="description" content="Search Results $('#search_results').tapir({ 'token': '', 'complete' : function() { document.getElementById('search_loading').style.display="none &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -76,68 +76,22 @@
 <div id="toload">
 <!-- begin toload --> 
     <div id="content" class="inner">
-        
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/02/02/sts-updating-maven-project-unsupported-iclasspathentry-kind-equals-4/">
-		
-			STS: Updating Maven Project&#8221;. Unsupported IClasspathEntry Kind=4</a>
-	</h2>
-    <div class="entry-content">
-    <div class="meta">
-      <div class="date">Published on: 
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-02T18:02:00+01:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2013</time></div>
-      <div class="tags">Tags: 
-
-
-	<a class='category' href='/blog/categories/maven/'>Maven</a>, <a class='category' href='/blog/categories/sts/'>STS</a>
-
-
+        <h1 class="entry-title"><center>Search Results</center></h1>
+<div id="search_loading" style="margin: 40px 0">
+    <center><img src="/images/loading.gif"></center>
 </div>
-    </div>
-		<p>It is my first post and I treated it as warm-up. It is not very long but I wanted to finally start blogging ;).</p>
 
-<p>During updating maven projects (on which I or someone has invoked command mvn eclipse:eclipse) in my STS I usually get error from the post title.</p>
-
-<p>For me, belows steps help:</p>
-
-<ol>
-<li><p>In STS/Eclipse disable the maven nature for your project (via the right-click menu)</p></li>
-<li><p>Run mvn eclipse:clean (while your project is open in STS/eclipse) from command line</p></li>
-<li><p>Re-enable the maven nature</p></li>
-</ol>
-
-
-<p>Done.</p>
-
-		
-		
-	</div>
-
-<div class="meta">
-	
+<script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+<div id="search_results" style="display:none">
+<br>
 </div>
-</article>
+<script>
+         $('#search_results').tapir({
+             'token': '',
+             'complete' : function() { document.getElementById('search_loading').style.display="none"; }
+         });
+</script>
 
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav>
 
     </div>
     <footer id="footer">
