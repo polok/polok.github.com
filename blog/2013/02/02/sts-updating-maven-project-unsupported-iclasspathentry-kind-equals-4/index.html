@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>STS: Updating Maven Project". Unsupported IClasspathEntry kind=4 - Around the Java world</title>
+	<title>STS: Updating Maven Project. Unsupported IClasspathEntry kind=4 - Around the Java world</title>
     <meta name="author" content="Marcin Polak">
     
 	<meta name="description" content="It is my first post and I treated it as warm-up. It is not very long but I wanted to finally start blogging ;). During updating maven projects (on &hellip;">
@@ -33,11 +33,13 @@
 <body>
     <div id="wrapper">
     <header id="header" class="inner"><!-- for more effects see _animate.scss -->
+<center>
 <h1>
     <div id="subheaderbg">
 	<b>Around the Java world</b>
     </div>
 </h1>
+</center>
 <h1 class="animated bounceInDown">
     <div id="headerbg">
         Don't let your motivation burnout!!!
@@ -48,7 +50,11 @@
 
 <!-- use full url including 'index.html' for navigation bar if you are using ajax -->
 <ul text-align:center>
+<center>
 <p>I would like to improve my English's skill which is not my native language so please, if you notice something wrong (probably a lot of them), just leave a comment or send me an email so I could fix it. Thank you in advance.</p>
+</center>
+<p>
+</br>
 
   
     <div id="dark">
@@ -65,9 +71,6 @@
 	<li id="ajax"><a href="/about/index.html">About me</a></li>
     
 </ul>
- 
-  
-
 
 
 
@@ -77,19 +80,18 @@
 <!-- begin toload --> 
     <div id="content" class="inner">
         <article class="post">
-	<h2 class="title">STS: Updating Maven Project". Unsupported IClasspathEntry Kind=4</h2>
+	<h2 class="title">STS: Updating Maven Project. Unsupported IClasspathEntry Kind=4</h2>
 	<div class="entry-content"><p>It is my first post and I treated it as warm-up. It is not very long but I wanted to finally start blogging ;).</p>
 
 <p>During updating maven projects (on which I or someone has invoked command mvn eclipse:eclipse) in my STS I usually get error from the post title.</p>
 
 <p>For me, belows steps help:</p>
 
-<ol>
-<li><p>In STS/Eclipse disable the maven nature for your project (via the right-click menu)</p></li>
-<li><p>Run mvn eclipse:clean (while your project is open in STS/eclipse) from command line</p></li>
-<li><p>Re-enable the maven nature</p></li>
-</ol>
+<p><li>In STS/Eclipse disable the maven nature for your project (via the right-click menu)</li></p>
 
+<p><li>Run mvn eclipse:clean (while your project is open in STS/eclipse) from command line</li></p>
+
+<p><li>Re-enable the maven nature</li></p>
 
 <p>Done.</p>
 </div>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: STS | Around the Java world]]></title>
   <link href="http://polok.github.com/blog/categories/sts/atom.xml" rel="self"/>
   <link href="http://polok.github.com/"/>
-  <updated>2013-02-03T22:35:54+01:00</updated>
+  <updated>2013-02-04T20:31:09+01:00</updated>
   <id>http://polok.github.com/</id>
   <author>
     <name><![CDATA[Marcin Polak]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[STS: Updating Maven Project". Unsupported IClasspathEntry kind=4]]></title>
+    <title type="html"><![CDATA[STS: Updating Maven Project. Unsupported IClasspathEntry kind=4]]></title>
     <link href="http://polok.github.com/blog/2013/02/02/sts-updating-maven-project-unsupported-iclasspathentry-kind-equals-4/"/>
     <updated>2013-02-02T18:02:00+01:00</updated>
     <id>http://polok.github.com/blog/2013/02/02/sts-updating-maven-project-unsupported-iclasspathentry-kind-equals-4</id>
@@ -24,12 +24,11 @@
 
 <p>For me, belows steps help:</p>
 
-<ol>
-<li><p>In STS/Eclipse disable the maven nature for your project (via the right-click menu)</p></li>
-<li><p>Run mvn eclipse:clean (while your project is open in STS/eclipse) from command line</p></li>
-<li><p>Re-enable the maven nature</p></li>
-</ol>
+<p><li>In STS/Eclipse disable the maven nature for your project (via the right-click menu)</li></p>
 
+<p><li>Run mvn eclipse:clean (while your project is open in STS/eclipse) from command line</li></p>
+
+<p><li>Re-enable the maven nature</li></p>
 
 <p>Done.</p>
 ]]></content>
