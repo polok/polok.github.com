@@ -1,4 +1,23 @@
-<ul class="main-navigation">
-  <li><a href="{{ root_url }}/">Blog</a></li>
-  <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
+<ul text-align:center>
+<center>
+<p>I would like to improve my English's skill which is not my native language so please, if you notice something wrong (probably a lot of them), just leave a comment or send me an email so I could fix it. Thank you in advance.</p>
+</center>
+<p>
+</br>
+{% if site.simple_search %}
+  
+    <div id="dark">
+        <form method="get" action="{{ root_url }}/search.html" id="search">
+            <input name="query" type="text" style="margin-top:0px;" size="20" placeholder="Search..." x-webkit-speech />
+        </form>
+    </div>
+   
+    {% endif %} 
+</ul>
+<ul id="nav">
+	<li id="ajax"><a href="{{ root_url }}/index.html">Home</a></li>
+	<li id="ajax"><a href="{{ root_url }}/blog/archives/index.html">Archives</a></li>
+	<li id="ajax"><a href="{{ root_url }}/about/index.html">About me</a></li>
+    
 </ul>
