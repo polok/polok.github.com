@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Around the Java world]]></title>
-  <link href="http://polok.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: cloud | Around the Java world]]></title>
+  <link href="http://polok.github.com/blog/categories/cloud/atom.xml" rel="self"/>
   <link href="http://polok.github.com/"/>
   <updated>2013-03-02T20:56:58+01:00</updated>
   <id>http://polok.github.com/</id>
@@ -43,27 +43,6 @@ db.pass=MY_USER_PASSWORD
 </code></pre>
 
 <p>To be honest, I was much easier as I thought. In few days I will put my simple REST web service into github.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[STS: Updating Maven Project. Unsupported IClasspathEntry kind=4]]></title>
-    <link href="http://polok.github.com/blog/2013/02/02/sts-updating-maven-project-unsupported-iclasspathentry-kind-equals-4/"/>
-    <updated>2013-02-02T18:02:00+01:00</updated>
-    <id>http://polok.github.com/blog/2013/02/02/sts-updating-maven-project-unsupported-iclasspathentry-kind-equals-4</id>
-    <content type="html"><![CDATA[<p>It is my first post and I treated it as warm-up. It is not very long but I wanted to finally start blogging ;).</p>
-
-<p>During updating maven projects (on which I or someone has invoked command mvn eclipse:eclipse) in my STS I usually get error from the post title.</p>
-
-<p>For me, belows steps help:</p>
-
-<p><li>In STS/Eclipse disable the maven nature for your project (via the right-click menu)</li></p>
-
-<p><li>Run mvn eclipse:clean (while your project is open in STS/eclipse) from command line</li></p>
-
-<p><li>Re-enable the maven nature</li></p>
-
-<p>Done.</p>
 ]]></content>
   </entry>
   

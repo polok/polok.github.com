@@ -6,7 +6,7 @@
 	<title>Around the Java world</title>
     <meta name="author" content="Marcin Polak">
     
-	<meta name="description" content="Published on: Feb 2nd, 2013 Tags: Maven, STS It is my first post and I treated it as warm-up. It is not very long but I wanted to finally start &hellip;">
+	<meta name="description" content="Published on: Mar 2nd, 2013 Tags: cloud, spring For a long time I wanted to learn more about the cloud. Finally I had some time to try this. To &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -80,6 +80,72 @@
 <!-- begin toload --> 
     <div id="content" class="inner">
         
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/03/02/touch-a-cloud-with-cloudbees/">
+		
+			Touch a Cloud With CloudBees</a>
+	</h2>
+    <div class="entry-content">
+    <div class="meta">
+      <div class="date">Published on: 
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-02T20:17:00+01:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2013</time></div>
+      <div class="tags">Tags: 
+
+
+	<a class='category' href='/blog/categories/cloud/'>cloud</a>, <a class='category' href='/blog/categories/spring/'>spring</a>
+
+
+</div>
+    </div>
+		<p>For a long time I wanted to learn more about the cloud. Finally I had some time to try this. To start with, I did some research to find a provider who provides a basic range of services just for free.
+I found quite many, e.g:
+</br><A href="https://openshift.redhat.com/app/">Redhat Openshift</A>
+</br><A href="http://www.cloudbees.com/#slide-1">CloudBees</A>
+</br><A href="http://jelastic.com">Jelastic</A></p>
+
+<p>I had a simple REST web serivice which has been written using Spring 3.1 and to store data I have chosen MySQL. Well, I needed:</p>
+
+<pre><code>Tomcat on which I can deploy my service
+Database
+</code></pre>
+
+<p>I chose CloudBeese (pricing details - <A href="http://www.cloudbees.com/platform/pricing/devcloud.cb">Pricing</A>)
+Without any problems in few minutes I was able to successfully set up Tomcat 7.X and MySQL database.</p>
+
+<p>My database properties looked as follows:</p>
+
+<pre><code>db.name=MY_DATABASE_NAME
+db.driver=com.mysql.jdbc.Driver
+db.url=jdbc:mysql://URL_FROM_CLOUDBEES:PORT_FROM_CLOUDBEES/
+db.user=MY_USER_NAME
+db.pass=MY_USER_PASSWORD
+</code></pre>
+
+<p>To be honest, I was much easier as I thought. In few days I will put my simple REST web service into github.</p>
+
+		
+		
+	</div>
+
+<div class="meta">
+	
+</div>
+</article>
 
 
     <article class="post">
