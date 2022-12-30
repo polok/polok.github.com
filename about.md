@@ -1,16 +1,11 @@
 ---
-title: About
-layout: page
+layout: about
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<h2>Skills</h2>
+# About the blog
 
-<ul class="skill-list">
-</ul>
+<p>My name is Marcin Polak. I'm a software engineer living and working in Poland. For last couple of years, mostly iOS Developer focusing on Swift. This blog is for me. If others find it useful, cool. But, at the end, it's supposed to be a place where I will take notes that I can easily find in one place.</p>
 
-<h2>Projects</h2>
+# Contact
 
-<ul>
-
-</ul>
+If you want to reach out, feel free to contact me via [LinkedIn](https://pl.linkedin.com/in/%F0%9F%A7%A8-marcin-polak-94294830).

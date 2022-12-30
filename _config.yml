@@ -1,31 +1,22 @@
 # main text of home
-name: Marcin Polak
-bio: A man who likes to write code and travel
+title: 'Polak is writing | Blog'
+author: Marcin Polak
 
-# twitter summary info
-description: A blog about technology and stuff related
+email:
+url: https://haker.dev/
+description:
+favicon: "assets/favicon/apple-touch-icon.png" # set the favicon of the site 
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/avatar.png
-
-# If you want to include your resume, set to true
-# and specify source (external or local).
-#resume: false
-#resume-external: false
-#resume-url: https://google.com/?q=my+resume
-
-url: http://polok.github.io
-# your url: http://USERNAME.github.io
-
-permalink: /:title/
-
-markdown: kramdown
-highlighter: rouge
+# Moving date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+moving:
+  avatar_url: "https://github.com/polok/polok.github.com/blob/master/assets/avatar.png?raw=true" # avatar in about page
+  about_you:
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-96457755-1'
+analytics-google: 'G-PY54NJGLEL'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -53,43 +44,8 @@ github: polok
 # vimeo: myvimeo
 email: mpolak87@gmail.com
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
-# if you don't need projects, comment the *projects* configs below
-projects: false
-
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: false
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
-
-# show author block at the end of a post ?
-show-author: false
-
-# do you want some animations?
-animation: true
-
-sass:
-    sass_dir: _sass
-    style: :compressed
+# Build settings
+remote_theme: huangyz0918/moving
 
 gems:
   - jemoji
