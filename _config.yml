@@ -5,7 +5,7 @@ author: Marcin Polak
 email:
 url: https://haker.dev/
 description:
-favicon: "assets/favicon/apple-touch-icon.png" # set the favicon of the site 
+favicon: "assets/favicon/apple-touch-icon.png" # set the favicon of the site
 
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -40,9 +40,9 @@ github: polok
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-#medium: medium
+# medium: medium
 # vimeo: myvimeo
-email: mpolak87@gmail.com
+# email:
 
 # Build settings
 remote_theme: huangyz0918/moving
