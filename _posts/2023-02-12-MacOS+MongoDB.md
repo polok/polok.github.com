@@ -10,19 +10,15 @@ tag:
 
 There are a few steps:
 
-1. First, you install Homebrew. It's not a mandatory thing but it just simplifies the process. If you are not familiar with Homebrew, check [this](https://brew.sh) out.
+- First, you install Homebrew. It's not a mandatory thing but it just simplifies the process. If you are not familiar with Homebrew, check [this](https://brew.sh) out.
 
-2. Next, find the MongoDB tap.
+- Next, find the MongoDB tap.
 
-```script
-brew tap mongodb/brew
-```
+`brew tap mongodb/brew`
 
-3. Now, install MongoDB.
+- Now, install MongoDB.
 
-```bash
-brew install mongodb-community
-```
+`brew install mongodb-community`
 
 Now, you are ready to go to install MongoDB locally. Btw. When writing this post I was using macOS Catalina but had to update to macOS Big Sur as some of the dependencies couldn't be installed on a lower version of the macOS.
 
