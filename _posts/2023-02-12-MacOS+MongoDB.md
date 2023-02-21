@@ -3,7 +3,8 @@ layout: post
 title: "macOS + MongoDB"
 description: "How to install MongoDB on your Mac"
 tag:
-  - database, mongodb
+  - database
+  - mongodb
 ---
 
 # Installing MongoDB on your Mac
