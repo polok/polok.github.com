@@ -13,3 +13,5 @@ gem 'jekyll-gist'
 gem 'jekyll-paginate'
 
 gem "moving"
+
+gem "webrick", "~> 1.9"
