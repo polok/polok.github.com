@@ -3,7 +3,7 @@ layout: post
 title: "UIStackView: arranged subviews spacing"
 description: "How to add a custom spacing between UIStackView views?"
 tag:
-  - swift,
+  - swift
   - UIKit
   - UIStackView
 ---
